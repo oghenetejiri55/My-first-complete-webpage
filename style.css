@@ -1,0 +1,227 @@
+*{
+    font-family:Verdana;
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow:1px 1px 5px silver;
+    padding: 8px;
+    position: fixed;
+    background-color: white;
+    width:100%;
+    top:0px;
+    z-index:9999;
+}
+
+h1{
+    font-size:18px;
+}
+
+header h1 span{
+font-weight:lighter;
+}
+
+header h1:hover{
+    background-color: silver;
+}
+
+ul{
+    display:flex;
+    list-style-type:none;
+    
+}
+
+
+header a{
+    padding:15px;
+    display:block;
+}
+
+header a:hover{
+    background-color: silver;
+    cursor: pointer;
+}
+
+.banner{
+    margin-top:10px;
+    position: relative;
+}
+
+
+                   
+.banner img{
+width:100%;
+}
+
+.banner h2{
+    position: absolute;
+    top:50%;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-weight:lighter;
+}
+
+.banner h2 span{
+    background-color: black;
+    color:transparent;
+    color:white;
+    font-size: 45px;
+    font-weight:bold;
+    opacity:0.75 ;
+}
+
+.first{
+    padding:30px;
+   }
+
+   .first h1{
+    margin: 25px;
+    border-bottom: 1px solid silver ;
+   }
+
+   .first h2 {
+       position: absolute;
+       top: 0px;
+       background-color: black;
+       color: white;
+       font-weight: lighter;
+       font-size: 16px;
+       padding: 5px;
+   }
+
+   .firstrow{
+    display: flex;
+    width:100%;
+    position: relative;
+   }
+
+   .projectcontainer{
+     width: 25%;
+     padding:12px;
+   }
+
+.project{
+    position:relative;
+  }
+
+.project img{
+    width: 100%;
+}
+
+.second{
+    margin:20px;
+}
+
+.about{
+   border-bottom:1px solid silver;
+   padding: 20px;
+}
+
+.intro{
+    padding:20px;
+}
+
+.member{
+    display:flex;
+    width:100%;
+}
+
+.container{
+    padding:10px;
+}
+
+.container h1{
+    padding:15px;
+    font-size:25px;
+    font-weight:lighter;
+}
+
+.container h2{
+    margin:15px;
+    font-weight: lighter;
+    font-size:18px;
+}
+
+.member img{
+    width:100%;
+}
+
+.button{
+    background-color:silver;
+    padding:10px;
+    text-align: center;
+    margin-top:7px;
+}
+ 
+.button:hover{
+    background-color:#c5bcbc;
+  }
+
+  .contact{
+    margin:25px;
+  }
+
+  .contact h2{
+    font-weight:lighter;
+    padding:25px;
+    border-bottom:1px solid silver;
+  }
+
+  .contact p{
+    margin-bottom:20px;
+    margin-top:20px;
+  }
+
+  .contact form input{
+    display:block;
+    width:100%;
+    padding:10px;
+    margin-bottom:20px;
+  }
+
+  .contact button{
+    padding:15px;
+    background-color: black;
+    color:white;
+    margin-bottom:40px;
+  }
+
+  .contact button:hover{
+    background-color:silver;
+    color:black;
+    border:none;
+  }
+
+.contact img{
+    width:100%;
+    }
+
+  .last{
+    background-color: black;
+    color:white;
+    padding:30px;
+    text-align: center;
+  }  
+
+
+
+@media(max-width:430px){
+.firstrow{
+    display:block;
+}
+
+.projectcontainer{
+    width: 100%;
+}
+
+.member{
+    display: block;
+}
+}
+
