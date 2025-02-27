@@ -40,6 +40,8 @@ ul{
 header a{
     padding:15px;
     display:block;
+    text-decoration:none;
+    color:black;
 }
 
 header a:hover{
